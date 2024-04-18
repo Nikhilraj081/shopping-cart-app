@@ -1,0 +1,122 @@
+.logo{
+    margin-left: 30px;
+}
+ .navbar{
+    background-color: whitesmoke;
+ } 
+
+ .navbar a{
+    float: left;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+ }
+
+ .nav-list{
+    margin-left: 200px;
+ }
+ .dropdown {
+	position: relative;
+	display: inline-block;
+	height:10px;
+    margin-top: -40px;
+  }
+  
+  .dropdown-a {
+    float: left;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .navbar a:hover {
+    background-color: whitesmoke;
+    color: rgb(235, 134, 75);
+  }
+  
+  .dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: white;
+	min-width: 200px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    margin-top: 50px;
+	z-index: 1;
+	
+  }
+  
+  .dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	cursor:pointer;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .searchbar{
+    margin-left: 100px;
+  }
+  .searchbar input{
+    width: 400px;
+    border-color: transparent;
+    background-color: rgb(214, 233, 233);
+    outline: none;
+    border-radius: 5px;
+    height: 40px;
+    padding-left: 10px;
+  }
+  .searchbar button{
+    background-color: rgb(74, 153, 74);
+    color: white;
+    border-color: transparent;
+    height: 38px;
+    border-radius: 5px;
+    width: 70px;
+  }
+
+  .searchbar img{
+    height: 28px;
+    width: 28px;
+    margin-left: -40px;
+  }
+  .login{
+    margin-left: -3px;
+  }
+
+
+  .login img{
+    margin-left: 40;
+  }
+
+ 
+  .userloginicon{
+    margin-left: 70px;
+    width: 23px;
+    height: 23px;
+
+  }
+
+  .cart{
+    margin-left: -1px;
+    background-color: transparent;
+  }
+
+  .carticon{
+    width: 23px;
+    height: 23px;
+    margin-left: 20px;
+  }
+ 
+
+
+
+  
+  
