@@ -10,36 +10,53 @@ const NavigationBar = () => {
     <Navbar className="navbar">
         <div className="logo"><h5>ShoppingCart</h5></div>
 
-        <div className="nav-list">
-            <a href="#home">Home</a>
-            <a href="#news">News</a>
-        </div>
-       
         <div className="dropdown">
-            <a href="#news" className="dropdown-a">Category</a>
+            <a href="#home" className="dropdown-a" >Electronics</a>
             <div className="dropdown-content">
-                <a href="#">electronics</a>
-                <a href="#">Home and appliance</a>
-                <a href="#">fashion </a>
+                <a href="#">Laptop</a>
+                <a href="#">Mobile</a>
+                <a href="#">Camera</a>
+            </div>
+        </div>
+
+        <div className="dropdown">
+            <a href="#news" className="dropdown-a">Appliance</a>
+            <div className="dropdown-content">
+                <a href="#">Television</a>
+                <a href="#">Refrigerator</a>
+                <a href="#">WashingMachine</a>
+                <a href="#">AirConditioners</a>
+                <a href="#">Iron</a>
+                <a href="#">Microwave</a>
+            </div>
+        </div>
+
+        <div className="dropdown">
+            <a href="#news" className="dropdown-a">Fashions</a>
+            <div className="dropdown-content">
+                <a href="#">Jeans</a>
+                <a href="#">Shirt</a>
+                <a href="#">Shoes</a>
+                <a href="#">Jeans</a>
+                <a href="#">Shirt</a>
+                <a href="#">Shoes</a>
+                <a href="#">Jeans</a>
+                <a href="#">Shirt</a>
+                <a href="#">Shoes</a>
             </div>
         </div>
 
         <div className="searchbar">
-            
             <form >
-                 
                 <input
                     type="text"
                     placeholder="Search product"
-                   
                 />
                 <img src={searchicon} ></img>
-               
             </form>
         </div>
 
         <img src={loginicon} className='userloginicon'></img> 
-
         <div className="login">
             <a>Login</a>
         </div>  
@@ -48,9 +65,6 @@ const NavigationBar = () => {
         <div className='cart'>
              <a>Cart</a>
         </div>
-        
-
-      
     </Navbar>
   );
 };
