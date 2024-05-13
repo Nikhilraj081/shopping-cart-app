@@ -14,3 +14,5 @@ HTTP Requests: Axios, Fetch API
 Routing: React Router
 
 Authentication: JSON Web Tokens (JWT)
+
+**Note:** This project is under development.
